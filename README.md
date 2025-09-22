@@ -309,53 +309,5 @@ src/
 └── app.js                  # Main application file
 ```
 
-## 🚀 Deployment
 
-### Environment Variables for Production
-```env
-NODE_ENV=production
-MONGO_URI=your_production_mongodb_uri
-PORT=3600
-JWT_SECRET=your_production_jwt_secret
-```
 
-### Build and Start
-```bash
-npm start
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the ISC License.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **MongoDB Connection Error**
-   - Ensure MongoDB is running locally or check your Atlas connection string
-   - Verify network access and credentials
-
-2. **JWT Token Issues**
-   - Ensure JWT_SECRET is set in environment variables
-   - Check token expiration and format
-
-3. **File Upload Issues**
-   - Verify the `public/images/` directories exist
-   - Check file permissions and disk space
-
-4. **Port Already in Use**
-   - Change the PORT in your `.env` file
-   - Kill the process using the port: `lsof -ti:3600 | xargs kill -9`
-
-## 📞 Support
-
-For support and questions, please open an issue in the repository or contact the development team.

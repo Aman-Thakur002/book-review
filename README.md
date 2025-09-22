@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Aman-Thakur002/book-review
 cd book-review-api
 ```
 
